@@ -230,14 +230,16 @@ header {
 
 .features-icon {
   display: flex;
+  align-items: center;
   justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: var(--section-bg-color);
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .icon {
-  width: 270px;
-  height: 120px;
-  padding: 25px 100px;
   background: var(--section-bg-color);
   border-radius: 4px;
 }
@@ -369,6 +371,7 @@ footer {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -396,7 +399,6 @@ footer {
 
 .join-us {
   margin-left: 70px;
-  padding-top: 12px;
 }
 
 .join-us-text {
